@@ -19,8 +19,8 @@ A personal portfolio website built with clean HTML, CSS, and vanilla JavaScript.
 - **Links**: Update the `href` attributes in the navigation and footer sections to point to your actual social media profiles.
 
 ### 2. Update Assets
-- **Profile Photo**: Save your photo as `profile.jpg` and place it inside the `assets/` folder.
-- **Resume**: Save your resume as `resume.pdf` and place it inside the `assets/` folder.
+- **Profile Photo**: Save your photo as `1.jpeg` and place it inside the `assets/` folder.
+- **Resume**: Save your resume as `Riddhi Shobhavat Resume Uni.pdf` and place it inside the `assets/` folder.
 - In `index.html` and `resume.html`, the code is already prepared to look for these filenames.
 
 ### 3. Deploy to GitHub Pages
