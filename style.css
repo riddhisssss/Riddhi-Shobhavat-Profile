@@ -292,6 +292,51 @@ footer a { color: inherit; }
     background-color: var(--text-color);
 }
 
+.btn-nav {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    padding: 0.6rem 1.25rem;
+    border: 1px solid var(--line-color);
+    transition: var(--transition-smooth);
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.btn-nav:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-color: var(--text-color);
+    transform: translateY(-1px);
+}
+
+.btn-nav:active {
+    transform: translateY(0);
+}
+
+.btn-link {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--line-color);
+    transition: var(--transition-smooth);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-color);
+}
+
+.btn-link:hover {
+    background-color: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+    transform: translateX(3px);
+}
+
 /* Theme Toggle Styling */
 .dark-mode-toggle {
     width: 32px;
