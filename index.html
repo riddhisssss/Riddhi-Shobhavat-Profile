@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddhi Shobhavat | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Riddhi Shobhavat, a Biology student at Purdue University curious about life sciences, data, and business.">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="nav-meta">Purdue University // 2029</div>
+            <div class="nav-links">
+                <a href="index.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="projects.html">Projects</a>
+                <a href="mailto:riddhishobhavat3@gmail.com">Contact</a>
+                <button id="theme-toggle" class="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="18.36" x2="5.64" y2="19.78"/><line x1="18.36" y1="4.22" x2="19.78" y2="5.64"></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="page-wrapper">
+        <!-- Sidebar Column -->
+        <aside class="sidebar-column">
+            <!-- Profile Picture -->
+            <div class="profile-image-container" style="width: 240px; height: 240px; border: 1px solid var(--line-color); margin-bottom: 2rem; overflow: hidden; background-color: var(--line-color);">
+                <img src="assets/profile.jpg" alt="Riddhi Shobhavat" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'padding: 20px; text-align: center; font-size: 10px; opacity: 0.5;\'>UPLOAD PROFILE.JPG TO ASSETS/</div>'">
+            </div>
+
+            <div>
+                <p class="micro-label" style="margin-bottom: 2rem;">Introduction</p>
+                <h2 style="font-size: 2.25rem; font-style: italic; line-height: 1.2; margin-bottom: 2rem;">Building bridges between life sciences, data, and management.</h2>
+                <div class="reveal-vogue delay-1" style="display: grid; grid-template-columns: 40px 1fr; gap: 1.5rem; margin-top: 2rem;">
+                    <div style="font-family: var(--font-serif); font-size: 2.5rem; line-height: 1; color: var(--accent-color); opacity: 0.4;">R</div>
+                    <p class="editorial-body" style="font-size: 0.9rem; line-height: 1.6;">
+                        Freshman at Purdue University majoring in Biology with a minor in Management. 
+                        I explore how biological innovation translates into real-world healthcare and biotechnology solutions. 
+                        Mumbai born, West Lafayette based.
+                    </p>
+                </div>
+            </div>
+            
+            <div style="margin-top: 4rem;">
+                <div style="display: flex; gap: 1.5rem; margin-bottom: 2rem;">
+                    <a href="https://www.linkedin.com/in/riddhi-shobhavat-2669672b0/" target="_blank" style="font-size: 10px; text-transform: uppercase; border-bottom: 1px solid var(--text-color); padding-bottom: 2px;">LinkedIn</a>
+                    <a href="mailto:riddhishobhavat3@gmail.com" style="font-size: 10px; text-transform: uppercase; border-bottom: 1px solid var(--text-color); padding-bottom: 2px;">Email</a>
+                </div>
+                <a href="resume.html" class="btn-editorial">
+                    <span>Explore Resume</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 7l10 10M17 7v10H7"/></svg>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content Column -->
+        <section class="content-column">
+            <!-- Brutalist Background Text -->
+            <div class="bg-text-brutal">Riddhi</div>
+
+            <div style="position: relative; z-index: 10;">
+                <h1 class="display-title">
+                    RIDDHI<br>
+                    <span class="vogue-italic">SHOBHAVAT</span>
+                </h1>
+                
+                <div style="margin-top: 3rem; display: flex; gap: 1rem;">
+                    <span class="project-meta-pill">Dean's List</span>
+                    <span class="project-meta-pill">Biological Sciences</span>
+                    <span class="project-meta-pill">Mumbai &rarr; WL</span>
+                </div>
+
+                <!-- Featured Work Section -->
+                <div style="margin-top: 6rem;">
+                    <p class="micro-label" style="margin-bottom: 2rem;">Featured Research</p>
+                    <div class="project-grid">
+                        <div class="project-card-featured" style="grid-column: span 2;">
+                            <h3>Early Intervention in ASD Outcomes</h3>
+                            <p style="font-size: 10px; text-transform: uppercase; opacity: 0.6; letter-spacing: -0.02em; margin-bottom: 1rem;">
+                                Published in IJCS publication / Research on family support systems for children aged 2-6.
+                            </p>
+                            <a href="https://rjpn.org/ijcspub/papers/IJCSP24C1084.pdf" target="_blank" rel="noopener noreferrer" style="font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px;">Read Publication</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Experience Summary -->
+                <div style="margin-top: 4rem;">
+                    <p class="micro-label" style="margin-bottom: 2rem;">Selected Experience</p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                        <div style="border-left: 1px solid var(--line-color); padding-left: 1.5rem;">
+                            <p style="font-size: 11px; text-transform: uppercase; opacity: 0.5; margin-bottom: 0.5rem;">Wadia Children’s Hospital</p>
+                            <p style="font-family: var(--font-serif); font-size: 1.4rem; font-style: italic; line-height: 1.2;">Neurology Intern</p>
+                        </div>
+                        <div style="border-left: 1px solid var(--line-color); padding-left: 1.5rem;">
+                            <p style="font-size: 11px; text-transform: uppercase; opacity: 0.5; margin-bottom: 0.5rem;">Fortis Hospital</p>
+                            <p style="font-family: var(--font-serif); font-size: 1.4rem; font-style: italic; line-height: 1.2;">Psychology Intern</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 2rem;">
+                        <a href="about.html" style="font-size: 10px; font-weight: 700; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px;">View Full Experience</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vertical Rail -->
+        <div class="vertical-rail">
+            <span class="rail-text">VOL. 2029 / ISSUE 01</span>
+            <div class="rail-line"></div>
+            <span class="rail-text" style="color: var(--text-color);">PURDUE UNIVERSITY</span>
+        </div>
+    </main>
+
+    <!-- Footer Bar -->
+    <footer>
+        <div>MUMBAI &rarr; WEST LAFAYETTE</div>
+        <div style="display: flex; gap: 3rem;">
+            <span>Biology</span>
+            <span>Bioinformatics</span>
+            <span>Business</span>
+        </div>
+        <div>&copy; 2029 R. Shobhavat</div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
